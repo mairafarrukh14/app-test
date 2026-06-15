@@ -1,0 +1,34 @@
+{
+  "data_source": "cache",
+  "train_days": 1743,
+  "test_days": 752,
+  "timesteps": 150000,
+  "metrics": {
+    "QuantMind PPO": {
+      "Total Return": 0.4142138107,
+      "CAGR": 0.1233257748,
+      "Ann. Volatility": 0.1597945987,
+      "Sharpe": 0.807693941,
+      "Sortino": 1.1998587725,
+      "Max Drawdown": -0.1335836488
+    },
+    "Buy & Hold (1/N)": {
+      "Total Return": 0.4203408035,
+      "CAGR": 0.1249564767,
+      "Ann. Volatility": 0.1601684253,
+      "Sharpe": 0.815262556,
+      "Sortino": 1.1955157971,
+      "Max Drawdown": -0.1276134941
+    },
+    "Best asset (XOM)": {
+      "Total Return": 0.8506205057,
+      "CAGR": 0.2294165004,
+      "Ann. Volatility": 0.272274662,
+      "Sharpe": 0.8949701619,
+      "Sortino": 1.3463664226,
+      "Max Drawdown": -0.205086665
+    }
+  },
+  "avg_daily_turnover": 0.04940139502286911,
+  "runtime_sec": 173.1
+}
