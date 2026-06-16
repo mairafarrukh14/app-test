@@ -15,16 +15,18 @@ import os
 import sys
 import time
 
+# ─── CRITICAL PATH FIX FOR STREAMLIT CLOUD ───
+ROOT = os.path.dirname(os.path.abspath(__file__))
+os.chdir(ROOT)
+sys.path.insert(0, ROOT)
+# ─────────────────────────────────────────────
+
 import numpy as np
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import streamlit as st
-
-# ── make sure `src/` is on the path regardless of where streamlit is run from ──
-ROOT = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, ROOT)
 
 from src import config, data, train, backtest, explain, metrics  # noqa: E402
 
