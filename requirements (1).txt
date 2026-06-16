@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy>=1.26,<2.1
+pandas>=2.1
+matplotlib>=3.8
+yfinance>=0.2.40
+gymnasium>=0.29
+stable-baselines3>=2.3
+torch>=2.2
+tqdm>=4.66
+streamlit>=1.35
