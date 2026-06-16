@@ -1,5 +1,7 @@
-# QuantMind RL prototype — lean runtime (no scipy/sklearn/shap; XAI is
-# implemented from scratch in NumPy to stay lightweight). Tested with Python 3.12.
+# QuantMind — Streamlit Cloud requirements
+# CPU-only torch keeps the slug under the memory limit on the free tier.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 numpy>=1.26,<2.1
 pandas>=2.1
 matplotlib>=3.8
@@ -8,3 +10,4 @@ gymnasium>=0.29
 stable-baselines3>=2.3
 torch>=2.2
 tqdm>=4.66
+streamlit>=1.35
